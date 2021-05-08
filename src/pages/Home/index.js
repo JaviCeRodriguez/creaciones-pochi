@@ -1,11 +1,8 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { StyledHome } from "./index.styled.js";
 
 const Home = () => {
-    return (
-        <Fragment>
-            <div>soy home</div>
-        </Fragment>
-    );
+    return <StyledHome>asdasd</StyledHome>;
 };
 
 export default Home;

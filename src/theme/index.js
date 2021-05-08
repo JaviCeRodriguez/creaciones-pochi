@@ -10,7 +10,9 @@ const Theme = ({ children }) => {
         <StyledTheme>
             <GlobalStyle />
             <Nav />
-            <Container maxW="container.xl">{children}</Container>
+            <Container maxW="container.xl" height="80%">
+                {children}
+            </Container>
             <Footer />
         </StyledTheme>
     );
