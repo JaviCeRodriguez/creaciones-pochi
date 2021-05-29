@@ -6152,6 +6152,11 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+google-sheets-mapper@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/google-sheets-mapper/-/google-sheets-mapper-1.0.1.tgz#2376cc3c83646b155c5679079645b4e544521583"
+  integrity sha512-0GMKtzKp8I/ZEQI6e6N8/1L4Ha0jCIglXp7oLxdRkrk0Rm34fEPdB7P1LsrNXrQAUn2YiWpfL20Q9VkU0vj4xw==
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
@@ -11860,6 +11865,13 @@ use-callback-ref@^1.2.1, use-callback-ref@^1.2.3:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.2.5.tgz#6115ed242cfbaed5915499c0a9842ca2912f38a5"
   integrity sha512-gN3vgMISAgacF7sqsLPByqoePooY3n2emTH59Ur5d/M8eg4WTWu1xp8i8DHjohftIyEx0S08RiYxbffr4j8Peg==
+
+use-google-sheets@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-google-sheets/-/use-google-sheets-1.2.0.tgz#1dfe46f8cf06a76c13850b64fc86556fe28fb326"
+  integrity sha512-1ISB/mebOZzPoI8j7KDO9iZepJ6ZPdBqMgvXlxKMm/3nhwgXi+CQNpATE3D7xVMMjA6Bdi8TAWQLKhPHHdy+iw==
+  dependencies:
+    google-sheets-mapper "^1.0.1"
 
 use-sidecar@^1.0.1:
   version "1.0.5"
